@@ -15,3 +15,148 @@
 {% block title %}Sponsors{% endblock %}
 
 {# Note: The actual sponsors page for PyPI is defined in pypi-theme #}
+
+{% block content %}
+<section class="horizontal-section">
+  <div class="site-container">
+
+    <div class="heading-wsubtitle centered">
+      <h1 class="heading-wsubtitle__heading">Our sponsors</h1>
+      <p class="heading-wsubtitle__subtitle">We are greatful to the following sponsors for their ongoing support of the Python Packaging Index</p>
+    </div>
+
+    <div class="sponsor-grid">
+      <div class="sponsor-grid__sponsor">
+        <div class="sponsor-grid__sponsor-img">
+          <img src="{{ request.static_path('warehouse:static/dist/images/logo-large.svg') }}" alt="">
+        </div>
+        <div class="sponsor-grid__sponsor-description">
+          <h2>Elastic</h2>
+          <p>Founded in 2012 by the people behind the Elasticsearch and Apache Lucene open source projects, Elastic provides real-time insights and makes massive amounts of structured and unstructured data usable for developers and enterprises.</p>
+          <p>By focusing on scalability, ease-of-use, and ease-of-integration, Elasticsearch, Logstash, and Kibana power many of the world’s leading mobile, social, consumer and business applications.</p>
+          <p>Since its initial release, the open source stack has achieved more than 20 million cumulative downloads.</p>
+        </div>
+        <a href="https://www.elastic.co" class="sponsor-grid__sponsor-link button">Visit sponsor</a>
+      </div>
+      <div class="sponsor-grid__sponsor">
+        <div class="sponsor-grid__sponsor-img">
+          <img src="{{ request.static_path('warehouse:static/dist/images/logo-large.svg') }}" alt="">
+        </div>
+        <div class="sponsor-grid__sponsor-description">
+          <h2>Pingdom</h2>
+          <p>We’re Pingdom, a website monitoring service.</p>
+          <p>With our service, any problem with your website will be discovered the minute it happens.</p>
+          <p>You will be immediately alerted so you can take action before it affects your business.</p>
+          <p>You will also be able to see detailed statistics of your website performance, giving you a historical record of all incidents.</p>
+          <p>It’s pretty great.</p>
+        </div>
+        <a href="https://www.pingdom.com" class="sponsor-grid__sponsor-link button">Visit sponsor</a>
+      </div>
+      <div class="sponsor-grid__sponsor">
+        <div class="sponsor-grid__sponsor-img">
+          <img src="{{ request.static_path('warehouse:static/dist/images/logo-large.svg') }}" alt="">
+        </div>
+        <div class="sponsor-grid__sponsor-description">
+          <h2 class="sponsor-grid__sponsor-name">Dyn</h2>
+          <p>Dyn is a cloud-based Internet Performance Management (IPM) company that provides unrivaled visibility and control into cloud and public Internet resources.</p>
+          <p>Dyn's platform monitors, controls and optimizes applications and infrastructure through Data, Analytics, and Traffic Steering, ensuring traffic gets delivered faster, safer, and more reliably than ever.</p>
+        </div>
+        <a href="https://www.dyn.com" class="sponsor-grid__sponsor-link button">Visit sponsor</a>
+      </div>
+      <div class="sponsor-grid__sponsor">
+        <div class="sponsor-grid__sponsor-img">
+          <img src="{{ request.static_path('warehouse:static/dist/images/logo-large.svg') }}" alt="">
+        </div>
+        <div class="sponsor-grid__sponsor-description">
+          <h2 class="sponsor-grid__sponsor-name">Sentry</h2>
+          <p>Sentry provides real-time crash reporting for your web apps, mobile apps, and games.</p>
+          <p>Sentry captures errors, tags them with important context, and then notifies your team with the information necessary to debug them quickly.</p>
+        </div>
+        <a href="https://getsentry.com/for/python" class="sponsor-grid__sponsor-link button">Visit sponsor</a>
+      </div>
+      <div class="sponsor-grid__sponsor">
+        <div class="sponsor-grid__sponsor-img">
+          <img src="{{ request.static_path('warehouse:static/dist/images/logo-large.svg') }}" alt="">
+        </div>
+        <div class="sponsor-grid__sponsor-description">
+          <h2 class="sponsor-grid__sponsor-name">CloudAMQP</h2>
+          <p>CloudAMQP offers managed RabbitMQ servers and clusters hosted in the cloud, on all major cloud platforms.</p>
+          <p>Decouple and distribute your applications with the speed of CloudAMQP, a highly available message queuing service.</p>
+        </div>
+        <a href="https://www.cloudamqp.com/" class="sponsor-grid__sponsor-link button">Visit sponsor</a>
+      </div>
+      <div class="sponsor-grid__sponsor">
+        <div class="sponsor-grid__sponsor-img">
+          <img src="{{ request.static_path('warehouse:static/dist/images/logo-large.svg') }}" alt="">
+        </div>
+        <div class="sponsor-grid__sponsor-description">
+          <h2 class="sponsor-grid__sponsor-name">Kabu Creative</h2>
+          <p>Kabu Creative is a small design and development agency focused on small websites and applications. We service businesses and organisations in both Australia and Europe.</p>
+          <p>Our objective is to provide our clients with a level of care usually matched only by in-house web teams. By doing so, we aim to become a valued addition to your business.</p>
+        </div>
+        <a href="https://kabucreative.com/" class="sponsor-grid__sponsor-link button">Visit sponsor</a>
+      </div>
+      <div class="sponsor-grid__sponsor">
+        <div class="sponsor-grid__sponsor-img">
+          <img src="{{ request.static_path('warehouse:static/dist/images/logo-large.svg') }}" alt="">
+        </div>
+        <div class="sponsor-grid__sponsor-description">
+          <h2 class="sponsor-grid__sponsor-name">AWS</h2>
+          <p>Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow.</p>
+          <p>Explore how millions of customers are currently leveraging AWS cloud products and solutions to build sophisticated applications with increased flexibility, scalability and reliability.</p>
+        </div>
+        <a href="https://aws.amazon.com/" class="sponsor-grid__sponsor-link button">Visit sponsor</a>
+      </div>
+      <div class="sponsor-grid__sponsor">
+        <div class="sponsor-grid__sponsor-img">
+          <img src="{{ request.static_path('warehouse:static/dist/images/logo-large.svg') }}" alt="">
+        </div>
+        <div class="sponsor-grid__sponsor-description">
+          <h2 class="sponsor-grid__sponsor-name">Fastly</h2>
+          <p>Fastly is the only content delivery network that gives businesses complete control over how they serve content, unprecedented access to real-time performance analytics, and the ability to cache frequently changing content at the edge.</p>
+          <p>Our secure, global network allows enterprises to increase revenue while maintaining fast, consistent, and reliable performance across their websites and applications.</p>
+          <p>With offices in San Francisco, New York, and London, Fastly powers popular online destinations including Twitter, the Guardian, GOV.UK, Imgur, Fast Company, GitHub, Wayfair, Pinterest, and Shazam.</p>
+          <p>Learn more at Fastly.com and follow us at @Fastly.</p>
+        </div>
+        <a href="https://fastly.com/" class="sponsor-grid__sponsor-link button">Visit sponsor</a>
+      </div>
+      <div class="sponsor-grid__sponsor">
+        <div class="sponsor-grid__sponsor-img">
+          <img src="{{ request.static_path('warehouse:static/dist/images/logo-large.svg') }}" alt="">
+        </div>
+        <div class="sponsor-grid__sponsor-description">
+          <h2 class="sponsor-grid__sponsor-name">StatusPage</h2>
+          <p>StatusPage is the best way to communicate the status of your service with your end-users.</p>
+          <p>We've entered an era where almost every company relies on external cloud services. The number of moving pieces and woven dependencies all but insures that even the most well-prepared companies will have the occasional outage. End-users will forgive the occasional downtime if you treat them well by keeping them in the loop when this happens.</p>
+          <p>Thousands of the top companies in web tech rely on StatusPage to communicate with their customers when they're experiencing outages or degraded performance.</p>
+        </div>
+        <a href="https://statuspage.io/" class="sponsor-grid__sponsor-link button">Visit sponsor</a>
+      </div>
+      <div class="sponsor-grid__sponsor">
+        <div class="sponsor-grid__sponsor-img">
+          <img src="{{ request.static_path('warehouse:static/dist/images/logo-large.svg') }}" alt="">
+        </div>
+        <div class="sponsor-grid__sponsor-description">
+          <h2 class="sponsor-grid__sponsor-name">DigiCert</h2>
+          <p>We focus on being the Certificate Authority that you like, and we're constantly working to simplify the digital certificate management lifecycle for administrators.</p>
+          <p>DigiCert does business with 5 of the Alexa Top 10 largest sites is trusted by more than 115,000 of the world's leading government, finance, healthcare, education, and Fortune 500(r) organizations.</p>
+          <p>For our customer-centric approach to business, we've been recognized with dozens of awards for providing enhanced customer value, premium customer service and market growth leadership.</p>
+          <p>For the latest DigiCert news and updates, visit digicert.com, like DigiCert on Facebook(r) or follow @digicert on Twitter(r).</p>
+        </div>
+        <a href="https://statuspage.io/" class="sponsor-grid__sponsor-link button">Visit sponsor</a>
+      </div>
+      <div class="sponsor-grid__sponsor">
+        <div class="sponsor-grid__sponsor-img">
+          <img src="{{ request.static_path('warehouse:static/dist/images/logo-large.svg') }}" alt="">
+        </div>
+        <div class="sponsor-grid__sponsor-description">
+          <h2 class="sponsor-grid__sponsor-name">Heroku</h2>
+          <p>Heroku, a salesforce.com company and industry pioneer in platform as a service, has enabled developers to build and run more than four million applications - all entirely in the cloud, without the need to purchase or maintain any servers or software.</p>
+          <p>With support for the most popular languages, an enterprise-class database service, and an add-ons ecosystem featuring over 150 cloud application services, Heroku provides companies from startups to Fortune 500 enterprises with a faster and more effective way to create, deploy and manage apps.</p>
+        </div>
+        <a href="https://www.heroku.com/python" class="sponsor-grid__sponsor-link button">Visit sponsor</a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
