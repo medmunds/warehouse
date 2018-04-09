@@ -56,3 +56,26 @@
     text-align: center;
   }
 }
+
+.centered-heading {
+  text-align: center;
+
+  &__title {
+    @include h1-title;
+    padding-bottom: 20px;
+  }
+
+  &__subtitle {
+    font-style: italic;
+  }
+
+  &__rule {
+    max-width: 300px;
+    margin: $spacing-unit auto ($spacing-unit * 2);
+    background: $base-grey;
+
+    @media only screen and (max-width: $tablet) {
+      display: none;
+    }
+  }
+}
