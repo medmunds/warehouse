@@ -116,6 +116,11 @@
   list-style-type: none;
 }
 
+// Make inline elements centered
+.centered {
+  text-align: center;
+}
+
 // Remove top padding on selected typography elements
 .no-top-padding {
   padding-top: 0;
@@ -168,9 +173,9 @@
   display: none;
 }
 
-
 // Desktop specific visibility
-@media screen and (min-width: calc($desktop + 1px)) {
+
+@media screen and (min-width: $desktop + 1px) {
   .hide-on-desktop {
     display: none;
   }
